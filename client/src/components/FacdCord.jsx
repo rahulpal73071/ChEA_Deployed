@@ -9,7 +9,8 @@ export default function FacdCord({ image, name, phone, email, roll , url }) {
         AOS.refresh()
       }, []);
   return (
-    <div className="relative group w-64 h-80 rounded-xl overflow-hidden shadow-[0_0_20px_#a855f7] transition duration-300" data-aos='fade-left'>
+    <div className="relative group w-64 h-80 rounded-xl overflow-hidden shadow-[0_0_20px_#a855f7] transform transition-transform duration-300 
+                 hover:scale-110 active:scale-110 touch-manipulation select-none" data-aos='fade-left'>
       {/* Image */}
       <img src={image} alt={name} className="w-full h-70 object-cover" />
 
@@ -19,7 +20,10 @@ export default function FacdCord({ image, name, phone, email, roll , url }) {
       </div>
 
       {/* Hover Overlay */}
-      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-center p-4 transition duration-300">
+      <div className="absolute inset-0 bg-black/80 opacity-0 
+                   group-hover:opacity-100 group-active:opacity-100 
+                   flex flex-col justify-center items-center text-center 
+                   p-4 transition duration-300">
         <h2 className="text-purple-400 text-lg font-bold m-4">{name}</h2>
         
         <p className="text-white text-sm m-2">📞 {phone}</p>

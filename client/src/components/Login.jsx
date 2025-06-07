@@ -4,7 +4,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+// const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 const orbitCircles = [1000, 800, 600];
 const orbitBalls = [
   { top: "20%", left: "15%", size: "w-5 h-5", color: "bg-orange-400" },
