@@ -21,7 +21,7 @@ import FacadMtech from './components/facads/FacadMtech';
 import FacadPhd from './components/facads/FacadPhd';
 import Link24 from './components/links/Link24';
 import Link25 from './components/links/Link25';
-import ProtectedRoute from './components/ProtectedRoute';
+
 import Publication from './components/publications/Publication';
 function App() {
   const [user, setUser] = useState(null);
@@ -53,9 +53,9 @@ function App() {
           <Route
   path="/contact"
   element={
-    <ProtectedRoute>
+    
       <Contact />
-    </ProtectedRoute>
+    
   }
 />
           <Route path="/contact/24" element={<Contact24 />} />
@@ -63,17 +63,17 @@ function App() {
           <Route path="/contact/22" element={<Contact22 />} />
           <Route path="/contact/21" element={<Contact21 />} />
           <Route path="/contact/20" element={<Contact20 />} />
-          <Route path="/facad/24" element={<ProtectedRoute>
+          <Route path="/facad/24" element={
       <Facad24 />
-    </ProtectedRoute>} />
+    } />
           <Route path="/facad/23" element={<Facad23 />} />
           <Route path="/facad/22" element={<Facad22 />} />
           <Route path="/facad/21" element={<Facad21 />} />
           <Route path="/facad/mtech" element={<FacadMtech />} />
           <Route path="/facad/phd" element={<FacadPhd />} />
-          <Route path="/links/25" element={<ProtectedRoute>
+          <Route path="/links/25" element={
       <Link25 />
-    </ProtectedRoute>} />
+    } />
           <Route path="/links/24" element={<Link24 />} />
           <Route path='/publications' element={<Publication/>}/>
         </Routes>
