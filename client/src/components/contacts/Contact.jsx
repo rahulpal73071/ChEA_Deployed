@@ -16,7 +16,8 @@ import Nilay from '../../assets/images/contact25/Nilay.png';
 import Prehas from '../../assets/images/contact25/Prehas.jpg';
 import Saransh from '../../assets/images/contact25/Saransh.jpg';
 import Siya from '../../assets/images/contact25/Siya.jpg';
-import Tanmay from '../../assets/images/contact25/tanmay.jpg';
+import Tanmay from '../../assets/images/contact25/tanmay.JPG';
+import Kalash from '../../assets/images/contact25/Kalash.webp';
 
 const orbitCircles = [1000, 800, 600];
 const plusSigns = [8, 70, 85, 100, 150];
@@ -135,6 +136,15 @@ const data = [
     "email": "24b0391@iitb.ac.in",
     "instagram": "https://www.instagram.com/divyanshiagrawal_13?igsh=eXNvcWdzdnV0MW1m"
   },
+  {
+    "name": "Kalash Airan",
+    "image":Kalash,
+    "position": "Sports Secretary",
+    "phone": "7999148464",
+    "email": "24b0393@iitb.ac.in",
+    // "instagram": "https://www.instagram.com/divyanshiagrawal_13?igsh=eXNvcWdzdnV0MW1m"
+  },
+  
 ]
 const pgData = [
   {
