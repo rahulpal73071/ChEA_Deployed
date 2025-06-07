@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import pndLogo from "../assets/images/cheaorange.png"; // Update the path as per your folder
 import { Navigate , Link } from "react-router-dom";
 
-export default function Navbar({ user, onLogout}) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
@@ -39,7 +39,7 @@ export default function Navbar({ user, onLogout}) {
           </div>
 
           {/* manual added */}
-          <div className="space-x-4">
+          {/* <div className="space-x-4">
         {!user ? (
           <>
             <Link to="/register" className="bg-purple-500 hover:bg-purple-600 px-3 py-1 rounded">
@@ -54,7 +54,7 @@ export default function Navbar({ user, onLogout}) {
             Logout
           </button>
         )}
-      </div>
+      </div> */}
 
           {/* Mobile menu toggle */}
           <div className="md:hidden">
