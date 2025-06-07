@@ -16,7 +16,7 @@ import Nilay from '../../assets/images/contact25/Nilay.png';
 import Prehas from '../../assets/images/contact25/Prehas.jpg';
 import Saransh from '../../assets/images/contact25/Saransh.jpg';
 import Siya from '../../assets/images/contact25/Siya.jpg';
-import Tanmay from '../../assets/images/contact25/tanmay.JPG';
+import Tanmay from '../../assets/images/contact25/Tanmay.JPG';
 import Kalash from '../../assets/images/contact25/Kalash.webp';
 
 const orbitCircles = [1000, 800, 600];
