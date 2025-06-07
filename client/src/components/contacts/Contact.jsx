@@ -111,15 +111,7 @@ const data = [
     "instagram": "https://www.instagram.com/tanmay_sonkar._?igsh=cW04c3Q0NzJzNDA4",
     "linkedin": "https://www.linkedin.com/in/tanmay-sonkar-670aaa330"
   },
-  {
-    "name": "Damodar Pendse",
-    "position": "Alumni Secretary",
-    "phone": "7350644940",
-    "email": "23b0429@iitb.ac.in",
-    "facebook": "https://www.facebook.com/profile.php?id=61561073463381",
-    "instagram": "https://www.instagram.com/damitssme/",
-    "linkedin": "https://www.linkedin.com/in/damodar-pendse/"
-  },
+  
   {
     "name": "Nilay Kanakia",
     "image":Nilay,
