@@ -3,16 +3,16 @@ import NavButton from "./NavButton";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-export default function LinkCard({ image, name , url }) {
+export default function PubliCard({ image, name , url }) {
     useEffect(() => {
         AOS.init({ duration: 3000 });
         AOS.refresh()
       }, []);
   return (
-    <div className="relative group w-80 h-90 rounded-xl overflow-hidden shadow-[0_0_20px_#a855f7] transform transition-transform duration-300 
+    <div className="relative group w-72 h-110 rounded-xl overflow-hidden shadow-[0_0_20px_#a855f7] transform transition-transform duration-300 
                  hover:scale-110 active:scale-110 touch-manipulation select-none" data-aos='fade-left'>
       {/* Image */}
-      <img src={image} alt={name} className="w-full h-80 object-cover" />
+      <img src={image} alt={name} className="w-full h-100 object-cover" />
 
       {/* Name */}
       <div className="bg-black text-center py-2" data-aos='fade-left'>

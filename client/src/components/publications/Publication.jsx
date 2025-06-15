@@ -26,7 +26,7 @@ import cg24 from '../../assets/images/publications/The-Chemical-Gazette25.png'
 
 
 // import FacdCord from "../FacdCord";
-import LinkCard from "../LinkCard";
+import PubliCard from "../PubliCard";
 
 const orbitCircles = [1000, 800, 600];
 const plusSigns = [8, 70, 85, 100, 150];
@@ -257,25 +257,25 @@ export default function Publication() {
               <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2024</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data24.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
               <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2023</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data23.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
               <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2022</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data22.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
               <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2021</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data21.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
             {/* Image */}
@@ -307,19 +307,19 @@ export default function Publication() {
           <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2020</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data20.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
             <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">2019</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data19.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
             <h1 className="text-white text-center font-bold text-3xl">Publication <span className="text-purple-400">(Pre-2019)</span> </h1>
             <div className="flex flex-wrap gap-6 justify-center p-6" data-aos='fade-in'>
               {data18.map((item, index) => (
-                <LinkCard key={index} {...item} />
+                <PubliCard key={index} {...item} />
               ))}
             </div>
           
