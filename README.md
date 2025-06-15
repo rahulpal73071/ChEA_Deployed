@@ -59,8 +59,9 @@ The app includes:
 ---
 
 ### SEO Use 
-<meta name="keywords" content="ChEA, chea iitb, chemical iit bombay, iit bombay, iitb, chemical, engineering" />
- 
+- <meta name="keywords" content="ChEA, chea iitb, chemical iit bombay, iit bombay, iitb, chemical, engineering" />
+
+---
 
 ### Clone the Repository
 
@@ -70,14 +71,11 @@ cd chea_deployed
 
 --------------------------------------------------------
 
-<hr>
-```bash
 cd client
 npm install
 npm run dev
 
-
-```bash
+---------------------------------------------------------
 cd ../server
 npm install
 node index.js
