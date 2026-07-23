@@ -1,9 +1,11 @@
 # 🧪 ChEA - Chemical Engineering Association, IIT Bombay
+https://cheaiitb.in/
 
 This project is the **official web portal for ChEA (Chemical Engineering Association), IIT Bombay**, showcasing department activities, faculty, student contacts, and publications across various academic years.
 
 Built with a modern tech stack including **React + Vite** for the frontend and **Node.js + Express** for the backend.
 
+Our digital home with cleaner design, smoother navigation, and easier access to internship blogs, placement blogs, academic resources and departmental events and much much more.
 ---
 
 ## 📂 Project Structure
